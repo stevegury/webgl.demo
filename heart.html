@@ -2,9 +2,8 @@
     <head>
         <title>Webgl demo</title>
         <style>
-            #mycanvas { 
-                border:1px solid red; 
-                padding: 20px;
+            #glCanvas { 
+                padding: 15px;
             }
          </style>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
@@ -14,11 +13,11 @@
         <script src="heart.js" defer></script>
     </head>
     <body>
-        <h2>Happy Valentines day from Matthew</h2>
+        <h2>Happy Valentine's day from Matthew</h2>
         <canvas id="glCanvas" width="640" height="480"></canvas>
         <script>
             const canvas = document.querySelector('#glcanvas');
-            canvas.width  = window.innerWidth - 20;
+            canvas.width  = window.innerWidth - 100;
             canvas.height = window.innerHeight - 100;
         </script>
     </body>
