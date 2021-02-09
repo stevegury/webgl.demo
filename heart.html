@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Webgl demo</title>
+        <style>
+            #mycanvas { 
+                border:1px solid red; 
+                padding: 20px;
+            }
+         </style>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
+                integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ=="
+                crossorigin="anonymous" defer>
+        </script>
+        <script src="heart.js" defer></script>
+    </head>
+    <body>
+        <canvas id="glCanvas" width="640" height="480"></canvas>
+        <script>
+            const canvas = document.querySelector('#glcanvas');
+            canvas.width  = window.innerWidth - 20;
+            canvas.height = window.innerHeight - 20;
+        </script>
+    </body>
+</html>
